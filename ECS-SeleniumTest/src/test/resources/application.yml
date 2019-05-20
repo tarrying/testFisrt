@@ -1,0 +1,18 @@
+
+ecs:
+  host: http://ecs-vm-staging.wiadvance.com
+  login: /#/login
+
+
+
+selenium:
+  browser-name: chrome
+  chrome-path: D:\\programfile\\chromedriver_win32\\chromedriver.exe
+  firefox-path:
+  screen-image-path: /screenImage/
+
+logging:
+  level.root: info
+  path: logs/
+  file: ecs_test.log
+

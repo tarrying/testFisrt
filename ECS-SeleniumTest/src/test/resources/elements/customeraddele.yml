@@ -1,0 +1,31 @@
+#客户信息
+agent: xpath>//select[@ng-model='accountInfoForm.partnerId']
+company-type: name>company_type
+company-name: name>company_name
+country: name>country
+city: name>city
+state: name>state
+zipcode: name>Zipcode
+address: name>Address
+reference-key: xpath>//*[@ng-model='accountInfoForm.referenceKey']
+vat: name>vat
+domain-name: name>domainName
+first-name: name>firstName
+last-name: name>lastName
+phone: name>phone
+mobile: name>mobile
+email: name>email
+next-step-btn: className>buttonNext
+cancel-btn: className>buttonCancel
+step-container: className>stepContainer
+step-one: id>step-1
+
+#新增客户订阅信息
+catagory: xpath>//div[@class='btn-group btn-toggle']/label
+sub-search-input: xpath>//input[@ng-model='search.subName']
+sub-search-btn: id>basic-addon1
+sub-check: xpath>//input[@type='checkbox']
+sub-next-btn: className>buttonNext
+sub-pre-btn: className>buttonPrevious
+sub-cancel-btn: className>buttonCancel
+sub-sure-btn: xpath>//button[@ng-click='continueNext();']

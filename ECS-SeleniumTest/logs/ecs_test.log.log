@@ -1,0 +1,15 @@
+13:53:13.055 [TestNG-tests-1] INFO  c.r.e.test.testcase.login.LoginTest:50- Starting LoginTest on PC-WH1409003-A with PID 12756 (D:\gitTest\ECS-SeleniumTest\target\test-classes started by WH1409003 in D:\gitTest\ECS-SeleniumTest)
+13:53:13.068 [TestNG-tests-1] INFO  c.r.e.test.testcase.login.LoginTest:675- No active profile set, falling back to default profiles: default
+13:53:14.945 [TestNG-tests-1] INFO  o.s.d.r.c.RepositoryConfigurationDelegate:244- Multiple Spring Data modules found, entering strict repository configuration mode!
+13:53:14.948 [TestNG-tests-1] INFO  o.s.d.r.c.RepositoryConfigurationDelegate:126- Bootstrapping Spring Data repositories in DEFAULT mode.
+13:53:14.984 [TestNG-tests-1] INFO  o.s.d.r.c.RepositoryConfigurationDelegate:182- Finished Spring Data repository scanning in 20ms. Found 0 repository interfaces.
+13:54:01.596 [Forwarding newSession on session null to remote] INFO  o.o.s.remote.ProtocolHandshake:77- Detected dialect: OSS
+13:54:19.181 [TestNG-tests-1] INFO  o.s.s.c.ThreadPoolTaskExecutor:171- Initializing ExecutorService 'applicationTaskExecutor'
+13:54:44.634 [TestNG-tests-1] WARN  o.s.b.a.f.FreeMarkerAutoConfiguration:70- Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+13:54:49.128 [TestNG-tests-1] INFO  org.mongodb.driver.cluster:71- Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+13:54:52.048 [TestNG-tests-1] INFO  c.r.e.test.testcase.login.LoginTest:59- Started LoginTest in 100.623 seconds (JVM running for 105.019)
+13:54:52.735 [TestNG-tests-1] INFO  c.r.e.test.testcase.login.LoginTest:30- 哈哈哈  先登录
+13:54:57.059 [cluster-ClusterId{value='5ce241283176c131d4793431', description='null'}-localhost:27017] INFO  org.mongodb.driver.connection:71- Opened connection [connectionId{localValue:1, serverValue:1}] to localhost:27017
+13:54:57.109 [cluster-ClusterId{value='5ce241283176c131d4793431', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster:71- Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 0, 3]}, minWireVersion=0, maxWireVersion=7, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=43594660}
+13:56:00.228 [TestNG-tests-1] INFO  c.r.e.t.t.c.CustomerMgrTest:63- /跳转到客户订阅页面
+13:56:11.802 [Thread-2] INFO  o.s.s.c.ThreadPoolTaskExecutor:208- Shutting down ExecutorService 'applicationTaskExecutor'

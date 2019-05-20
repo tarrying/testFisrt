@@ -1,0 +1,8 @@
+input-group: className>input-group
+search-input: tagName>input
+search-button: tagName>button
+drop-down-menu: id>dropdownMenu1
+drop-down-li: partialLinkText>New New
+cust-table: id>cust-datatable-responsive
+quit-edit-btn: xpath>//button[@ng-click='quitEdit();']
+sure-btn: xpath>//button[@ng-click='cancelMsgOk()']

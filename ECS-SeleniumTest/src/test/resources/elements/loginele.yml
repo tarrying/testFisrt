@@ -1,0 +1,8 @@
+
+login-btn: className>btn
+email-input: name>loginfmt
+next-btn: id>idSIButton9
+passwd-input: name>passwd
+check-box: id>KmsiCheckboxField
+
+

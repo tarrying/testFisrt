@@ -1,0 +1,439 @@
+13:39:35.772 [TestNG-tests-1] INFO  c.w.e.test.testcase.login.LoginTest:50- Starting LoginTest on PC-WH1409003-A with PID 9212 (D:\gitTest\ECS-SeleniumTest\target\test-classes started by WH1409003 in D:\gitTest\ECS-SeleniumTest)
+13:39:35.778 [TestNG-tests-1] INFO  c.w.e.test.testcase.login.LoginTest:675- No active profile set, falling back to default profiles: default
+13:39:37.637 [TestNG-tests-1] INFO  o.s.d.r.c.RepositoryConfigurationDelegate:244- Multiple Spring Data modules found, entering strict repository configuration mode!
+13:39:37.639 [TestNG-tests-1] INFO  o.s.d.r.c.RepositoryConfigurationDelegate:126- Bootstrapping Spring Data repositories in DEFAULT mode.
+13:39:37.693 [TestNG-tests-1] INFO  o.s.d.r.c.RepositoryConfigurationDelegate:182- Finished Spring Data repository scanning in 40ms. Found 0 repository interfaces.
+13:39:58.054 [Forwarding newSession on session null to remote] INFO  o.o.s.remote.ProtocolHandshake:77- Detected dialect: OSS
+13:40:06.548 [TestNG-tests-1] INFO  o.s.s.c.ThreadPoolTaskExecutor:171- Initializing ExecutorService 'applicationTaskExecutor'
+13:40:20.584 [TestNG-tests-1] WARN  o.s.b.a.f.FreeMarkerAutoConfiguration:70- Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+13:40:22.088 [TestNG-tests-1] INFO  org.mongodb.driver.cluster:71- Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+13:40:22.391 [TestNG-tests-1] INFO  c.w.e.test.testcase.login.LoginTest:59- Started LoginTest in 48.295 seconds (JVM running for 55.183)
+13:40:22.603 [TestNG-tests-1] INFO  c.w.e.test.testcase.login.LoginTest:25- 哈哈哈  先登录
+13:40:23.313 [cluster-ClusterId{value='5cdba6463176c123fc4bb6c6', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster:76- Exception in monitor thread while connecting to server localhost:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:67)
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:126)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:64)
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:62)
+	... 3 common frames omitted
+13:42:14.994 [TestNG-tests-1] ERROR c.w.e.t.l.TestngListenerScreenShot:55- logintest failure to take screen shot
+13:42:14.995 [TestNG-tests-1] INFO  com.wistron.ecs.test.base.DriverBase:136- login_2019_05_15_13_42_14.png
+13:42:15.665 [TestNG-tests-1] INFO  c.w.e.t.t.c.CustomerMgrTest:25- 哈哈哈  搜索客户了
+13:42:21.998 [TestNG-tests-1] INFO  c.w.e.t.t.c.CustomerMgrTest:33- 新增客户
+13:42:30.038 [TestNG-tests-1] ERROR c.w.e.t.l.TestngListenerScreenShot:55- searchCustomertest failure to take screen shot
+13:42:30.039 [TestNG-tests-1] INFO  com.wistron.ecs.test.base.DriverBase:136- searchCustomer_2019_05_15_13_42_30.png
+13:42:30.797 [Thread-2] INFO  o.s.s.c.ThreadPoolTaskExecutor:208- Shutting down ExecutorService 'applicationTaskExecutor'
+13:56:42.846 [TestNG-tests-1] INFO  c.w.e.test.testcase.login.LoginTest:50- Starting LoginTest on PC-WH1409003-A with PID 7652 (D:\gitTest\ECS-SeleniumTest\target\test-classes started by WH1409003 in D:\gitTest\ECS-SeleniumTest)
+13:56:42.847 [TestNG-tests-1] INFO  c.w.e.test.testcase.login.LoginTest:675- No active profile set, falling back to default profiles: default
+13:56:43.681 [TestNG-tests-1] INFO  o.s.d.r.c.RepositoryConfigurationDelegate:244- Multiple Spring Data modules found, entering strict repository configuration mode!
+13:56:43.684 [TestNG-tests-1] INFO  o.s.d.r.c.RepositoryConfigurationDelegate:126- Bootstrapping Spring Data repositories in DEFAULT mode.
+13:56:43.724 [TestNG-tests-1] INFO  o.s.d.r.c.RepositoryConfigurationDelegate:182- Finished Spring Data repository scanning in 26ms. Found 0 repository interfaces.
+13:56:49.436 [Forwarding newSession on session null to remote] INFO  o.o.s.remote.ProtocolHandshake:77- Detected dialect: OSS
+13:56:50.205 [TestNG-tests-1] INFO  o.s.s.c.ThreadPoolTaskExecutor:171- Initializing ExecutorService 'applicationTaskExecutor'
+13:56:51.017 [TestNG-tests-1] WARN  o.s.b.a.f.FreeMarkerAutoConfiguration:70- Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+13:56:51.258 [TestNG-tests-1] INFO  org.mongodb.driver.cluster:71- Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+13:56:51.399 [TestNG-tests-1] INFO  c.w.e.test.testcase.login.LoginTest:59- Started LoginTest in 9.366 seconds (JVM running for 10.683)
+13:56:51.441 [TestNG-tests-1] INFO  c.w.e.test.testcase.login.LoginTest:25- 哈哈哈  先登录
+13:56:52.310 [cluster-ClusterId{value='5cdbaa233176c11de47f31ea', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster:76- Exception in monitor thread while connecting to server localhost:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:67)
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:126)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:64)
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:62)
+	... 3 common frames omitted
+13:57:32.069 [TestNG-tests-1] INFO  c.w.e.t.t.c.CustomerMgrTest:25- 哈哈哈  搜索客户了
+13:57:38.295 [TestNG-tests-1] INFO  c.w.e.t.t.c.CustomerMgrTest:33- 新增客户
+13:57:51.424 [TestNG-tests-1] ERROR c.w.e.t.l.TestngListenerScreenShot:55- searchCustomertest failure to take screen shot
+13:57:51.425 [TestNG-tests-1] INFO  com.wistron.ecs.test.base.DriverBase:136- searchCustomer_2019_05_15_13_57_51.png
+13:57:52.038 [Thread-2] INFO  o.s.s.c.ThreadPoolTaskExecutor:208- Shutting down ExecutorService 'applicationTaskExecutor'
+14:02:16.798 [TestNG-tests-1] INFO  c.w.e.test.testcase.login.LoginTest:50- Starting LoginTest on PC-WH1409003-A with PID 8500 (D:\gitTest\ECS-SeleniumTest\target\test-classes started by WH1409003 in D:\gitTest\ECS-SeleniumTest)
+14:02:16.799 [TestNG-tests-1] INFO  c.w.e.test.testcase.login.LoginTest:675- No active profile set, falling back to default profiles: default
+14:02:17.500 [TestNG-tests-1] INFO  o.s.d.r.c.RepositoryConfigurationDelegate:244- Multiple Spring Data modules found, entering strict repository configuration mode!
+14:02:17.503 [TestNG-tests-1] INFO  o.s.d.r.c.RepositoryConfigurationDelegate:126- Bootstrapping Spring Data repositories in DEFAULT mode.
+14:02:17.541 [TestNG-tests-1] INFO  o.s.d.r.c.RepositoryConfigurationDelegate:182- Finished Spring Data repository scanning in 24ms. Found 0 repository interfaces.
+14:02:21.483 [Forwarding newSession on session null to remote] INFO  o.o.s.remote.ProtocolHandshake:77- Detected dialect: OSS
+14:02:22.198 [TestNG-tests-1] INFO  o.s.s.c.ThreadPoolTaskExecutor:171- Initializing ExecutorService 'applicationTaskExecutor'
+14:02:22.907 [TestNG-tests-1] WARN  o.s.b.a.f.FreeMarkerAutoConfiguration:70- Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+14:02:23.108 [TestNG-tests-1] INFO  org.mongodb.driver.cluster:71- Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+14:02:23.226 [TestNG-tests-1] INFO  c.w.e.test.testcase.login.LoginTest:59- Started LoginTest in 7.09 seconds (JVM running for 8.351)
+14:02:23.255 [TestNG-tests-1] INFO  c.w.e.test.testcase.login.LoginTest:25- 哈哈哈  先登录
+14:02:24.163 [cluster-ClusterId{value='5cdbab6f3176c12134dcf603', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster:76- Exception in monitor thread while connecting to server localhost:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:67)
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:126)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:64)
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:62)
+	... 3 common frames omitted
+14:03:19.221 [TestNG-tests-1] INFO  c.w.e.t.t.c.CustomerMgrTest:25- 哈哈哈  搜索客户了
+14:03:25.453 [TestNG-tests-1] INFO  c.w.e.t.t.c.CustomerMgrTest:33- 新增客户
+14:03:33.491 [TestNG-tests-1] INFO  com.wistron.ecs.test.page.BasePage:87- Element is null
+14:03:33.866 [Thread-2] INFO  o.s.s.c.ThreadPoolTaskExecutor:208- Shutting down ExecutorService 'applicationTaskExecutor'
+14:05:54.299 [TestNG-tests-1] INFO  c.w.e.test.testcase.login.LoginTest:50- Starting LoginTest on PC-WH1409003-A with PID 5500 (D:\gitTest\ECS-SeleniumTest\target\test-classes started by WH1409003 in D:\gitTest\ECS-SeleniumTest)
+14:05:54.301 [TestNG-tests-1] INFO  c.w.e.test.testcase.login.LoginTest:675- No active profile set, falling back to default profiles: default
+14:05:54.960 [TestNG-tests-1] INFO  o.s.d.r.c.RepositoryConfigurationDelegate:244- Multiple Spring Data modules found, entering strict repository configuration mode!
+14:05:54.962 [TestNG-tests-1] INFO  o.s.d.r.c.RepositoryConfigurationDelegate:126- Bootstrapping Spring Data repositories in DEFAULT mode.
+14:05:54.999 [TestNG-tests-1] INFO  o.s.d.r.c.RepositoryConfigurationDelegate:182- Finished Spring Data repository scanning in 24ms. Found 0 repository interfaces.
+14:05:59.942 [Forwarding newSession on session null to remote] INFO  o.o.s.remote.ProtocolHandshake:77- Detected dialect: OSS
+14:06:00.854 [TestNG-tests-1] INFO  o.s.s.c.ThreadPoolTaskExecutor:171- Initializing ExecutorService 'applicationTaskExecutor'
+14:06:01.615 [TestNG-tests-1] WARN  o.s.b.a.f.FreeMarkerAutoConfiguration:70- Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+14:06:01.853 [TestNG-tests-1] INFO  org.mongodb.driver.cluster:71- Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+14:06:02.034 [TestNG-tests-1] INFO  c.w.e.test.testcase.login.LoginTest:59- Started LoginTest in 8.222 seconds (JVM running for 11.653)
+14:06:02.067 [TestNG-tests-1] INFO  c.w.e.test.testcase.login.LoginTest:25- 哈哈哈  先登录
+14:06:02.967 [cluster-ClusterId{value='5cdbac493176c1157c7de65e', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster:76- Exception in monitor thread while connecting to server localhost:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:67)
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:126)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:64)
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:62)
+	... 3 common frames omitted
+14:06:58.649 [TestNG-tests-1] INFO  c.w.e.t.t.c.CustomerMgrTest:25- 哈哈哈  搜索客户了
+14:07:05.414 [TestNG-tests-1] INFO  c.w.e.t.t.c.CustomerMgrTest:33- 新增客户
+14:09:04.904 [TestNG-tests-1] INFO  com.wistron.ecs.test.page.BasePage:87- Element is null
+14:09:05.201 [Thread-2] INFO  o.s.s.c.ThreadPoolTaskExecutor:208- Shutting down ExecutorService 'applicationTaskExecutor'
+14:10:08.170 [TestNG-tests-1] INFO  c.w.e.test.testcase.login.LoginTest:50- Starting LoginTest on PC-WH1409003-A with PID 12788 (D:\gitTest\ECS-SeleniumTest\target\test-classes started by WH1409003 in D:\gitTest\ECS-SeleniumTest)
+14:10:08.171 [TestNG-tests-1] INFO  c.w.e.test.testcase.login.LoginTest:675- No active profile set, falling back to default profiles: default
+14:10:08.779 [TestNG-tests-1] INFO  o.s.d.r.c.RepositoryConfigurationDelegate:244- Multiple Spring Data modules found, entering strict repository configuration mode!
+14:10:08.782 [TestNG-tests-1] INFO  o.s.d.r.c.RepositoryConfigurationDelegate:126- Bootstrapping Spring Data repositories in DEFAULT mode.
+14:10:08.820 [TestNG-tests-1] INFO  o.s.d.r.c.RepositoryConfigurationDelegate:182- Finished Spring Data repository scanning in 25ms. Found 0 repository interfaces.
+14:10:13.516 [Forwarding newSession on session null to remote] INFO  o.o.s.remote.ProtocolHandshake:77- Detected dialect: OSS
+14:10:14.383 [TestNG-tests-1] INFO  o.s.s.c.ThreadPoolTaskExecutor:171- Initializing ExecutorService 'applicationTaskExecutor'
+14:10:15.179 [TestNG-tests-1] WARN  o.s.b.a.f.FreeMarkerAutoConfiguration:70- Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+14:10:15.461 [TestNG-tests-1] INFO  org.mongodb.driver.cluster:71- Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+14:10:15.663 [TestNG-tests-1] INFO  c.w.e.test.testcase.login.LoginTest:59- Started LoginTest in 8.031 seconds (JVM running for 9.315)
+14:10:15.712 [TestNG-tests-1] INFO  c.w.e.test.testcase.login.LoginTest:25- 哈哈哈  先登录
+14:10:16.527 [cluster-ClusterId{value='5cdbad473176c131f4226966', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster:76- Exception in monitor thread while connecting to server localhost:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:67)
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:126)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:64)
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:62)
+	... 3 common frames omitted
+14:10:50.676 [TestNG-tests-1] INFO  c.w.e.t.t.c.CustomerMgrTest:25- 哈哈哈  搜索客户了
+14:10:56.877 [TestNG-tests-1] INFO  c.w.e.t.t.c.CustomerMgrTest:33- 新增客户
+14:11:04.960 [TestNG-tests-1] ERROR c.w.e.t.l.TestngListenerScreenShot:55- searchCustomertest failure to take screen shot
+14:11:04.961 [TestNG-tests-1] INFO  com.wistron.ecs.test.base.DriverBase:136- searchCustomer_2019_05_15_14_11_04.png
+14:11:05.636 [Thread-2] INFO  o.s.s.c.ThreadPoolTaskExecutor:208- Shutting down ExecutorService 'applicationTaskExecutor'
+14:21:43.501 [TestNG-tests-1] INFO  c.w.e.test.testcase.login.LoginTest:50- Starting LoginTest on PC-WH1409003-A with PID 13100 (D:\gitTest\ECS-SeleniumTest\target\test-classes started by WH1409003 in D:\gitTest\ECS-SeleniumTest)
+14:21:43.503 [TestNG-tests-1] INFO  c.w.e.test.testcase.login.LoginTest:675- No active profile set, falling back to default profiles: default
+14:21:44.167 [TestNG-tests-1] INFO  o.s.d.r.c.RepositoryConfigurationDelegate:244- Multiple Spring Data modules found, entering strict repository configuration mode!
+14:21:44.170 [TestNG-tests-1] INFO  o.s.d.r.c.RepositoryConfigurationDelegate:126- Bootstrapping Spring Data repositories in DEFAULT mode.
+14:21:44.212 [TestNG-tests-1] INFO  o.s.d.r.c.RepositoryConfigurationDelegate:182- Finished Spring Data repository scanning in 26ms. Found 0 repository interfaces.
+14:21:49.984 [Forwarding newSession on session null to remote] INFO  o.o.s.remote.ProtocolHandshake:77- Detected dialect: OSS
+14:21:50.908 [TestNG-tests-1] INFO  o.s.s.c.ThreadPoolTaskExecutor:171- Initializing ExecutorService 'applicationTaskExecutor'
+14:21:51.654 [TestNG-tests-1] WARN  o.s.b.a.f.FreeMarkerAutoConfiguration:70- Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+14:21:51.890 [TestNG-tests-1] INFO  org.mongodb.driver.cluster:71- Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+14:21:52.192 [TestNG-tests-1] INFO  c.w.e.test.testcase.login.LoginTest:59- Started LoginTest in 9.498 seconds (JVM running for 10.894)
+14:21:52.226 [TestNG-tests-1] INFO  c.w.e.test.testcase.login.LoginTest:25- 哈哈哈  先登录
+14:21:52.956 [cluster-ClusterId{value='5cdbafff3176c1332cd72830', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster:76- Exception in monitor thread while connecting to server localhost:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:67)
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:126)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:64)
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:62)
+	... 3 common frames omitted
+14:22:39.614 [TestNG-tests-1] INFO  c.w.e.t.t.c.CustomerMgrTest:25- 哈哈哈  搜索客户了
+14:22:45.868 [TestNG-tests-1] INFO  c.w.e.t.t.c.CustomerMgrTest:33- 新增客户
+14:24:07.084 [TestNG-tests-1] INFO  com.wistron.ecs.test.page.BasePage:87- Element is null
+14:24:07.383 [Thread-2] INFO  o.s.s.c.ThreadPoolTaskExecutor:208- Shutting down ExecutorService 'applicationTaskExecutor'
+14:24:34.166 [TestNG-tests-1] INFO  c.w.e.test.testcase.login.LoginTest:50- Starting LoginTest on PC-WH1409003-A with PID 9080 (D:\gitTest\ECS-SeleniumTest\target\test-classes started by WH1409003 in D:\gitTest\ECS-SeleniumTest)
+14:24:34.168 [TestNG-tests-1] INFO  c.w.e.test.testcase.login.LoginTest:675- No active profile set, falling back to default profiles: default
+14:24:34.883 [TestNG-tests-1] INFO  o.s.d.r.c.RepositoryConfigurationDelegate:244- Multiple Spring Data modules found, entering strict repository configuration mode!
+14:24:34.887 [TestNG-tests-1] INFO  o.s.d.r.c.RepositoryConfigurationDelegate:126- Bootstrapping Spring Data repositories in DEFAULT mode.
+14:24:34.930 [TestNG-tests-1] INFO  o.s.d.r.c.RepositoryConfigurationDelegate:182- Finished Spring Data repository scanning in 27ms. Found 0 repository interfaces.
+14:24:39.254 [Forwarding newSession on session null to remote] INFO  o.o.s.remote.ProtocolHandshake:77- Detected dialect: OSS
+14:24:40.392 [TestNG-tests-1] INFO  o.s.s.c.ThreadPoolTaskExecutor:171- Initializing ExecutorService 'applicationTaskExecutor'
+14:24:41.500 [TestNG-tests-1] WARN  o.s.b.a.f.FreeMarkerAutoConfiguration:70- Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+14:24:41.764 [TestNG-tests-1] INFO  org.mongodb.driver.cluster:71- Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+14:24:41.922 [TestNG-tests-1] INFO  c.w.e.test.testcase.login.LoginTest:59- Started LoginTest in 8.455 seconds (JVM running for 10.194)
+14:24:41.957 [TestNG-tests-1] INFO  c.w.e.test.testcase.login.LoginTest:25- 哈哈哈  先登录
+14:24:42.831 [cluster-ClusterId{value='5cdbb0a93176c123789a28fa', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster:76- Exception in monitor thread while connecting to server localhost:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:67)
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:126)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:64)
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:62)
+	... 3 common frames omitted
+14:25:42.759 [TestNG-tests-1] INFO  c.w.e.t.t.c.CustomerMgrTest:25- 哈哈哈  搜索客户了
+14:25:49.253 [TestNG-tests-1] INFO  c.w.e.t.t.c.CustomerMgrTest:33- 新增客户
+14:50:41.561 [TestNG-tests-1] INFO  c.w.e.test.testcase.login.LoginTest:50- Starting LoginTest on PC-WH1409003-A with PID 8328 (D:\gitTest\ECS-SeleniumTest\target\test-classes started by WH1409003 in D:\gitTest\ECS-SeleniumTest)
+14:50:41.563 [TestNG-tests-1] INFO  c.w.e.test.testcase.login.LoginTest:675- No active profile set, falling back to default profiles: default
+14:50:42.180 [TestNG-tests-1] INFO  o.s.d.r.c.RepositoryConfigurationDelegate:244- Multiple Spring Data modules found, entering strict repository configuration mode!
+14:50:42.183 [TestNG-tests-1] INFO  o.s.d.r.c.RepositoryConfigurationDelegate:126- Bootstrapping Spring Data repositories in DEFAULT mode.
+14:50:42.219 [TestNG-tests-1] INFO  o.s.d.r.c.RepositoryConfigurationDelegate:182- Finished Spring Data repository scanning in 23ms. Found 0 repository interfaces.
+14:50:46.609 [Forwarding newSession on session null to remote] INFO  o.o.s.remote.ProtocolHandshake:77- Detected dialect: OSS
+14:50:47.423 [TestNG-tests-1] INFO  o.s.s.c.ThreadPoolTaskExecutor:171- Initializing ExecutorService 'applicationTaskExecutor'
+14:50:48.174 [TestNG-tests-1] WARN  o.s.b.a.f.FreeMarkerAutoConfiguration:70- Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+14:50:48.396 [TestNG-tests-1] INFO  org.mongodb.driver.cluster:71- Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+14:50:48.511 [TestNG-tests-1] INFO  c.w.e.test.testcase.login.LoginTest:59- Started LoginTest in 7.618 seconds (JVM running for 9.076)
+14:50:48.540 [TestNG-tests-1] INFO  c.w.e.test.testcase.login.LoginTest:25- 哈哈哈  先登录
+14:50:49.463 [cluster-ClusterId{value='5cdbb6c83176c12088fa6a9f', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster:76- Exception in monitor thread while connecting to server localhost:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:67)
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:126)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:64)
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:62)
+	... 3 common frames omitted
+14:51:34.180 [TestNG-tests-1] INFO  c.w.e.t.t.c.CustomerMgrTest:25- 哈哈哈  搜索客户了
+14:51:40.388 [TestNG-tests-1] INFO  c.w.e.t.t.c.CustomerMgrTest:33- 新增客户
+14:51:49.839 [Thread-2] INFO  o.s.s.c.ThreadPoolTaskExecutor:208- Shutting down ExecutorService 'applicationTaskExecutor'
+16:48:54.855 [TestNG-tests-1] INFO  c.w.e.test.testcase.login.LoginTest:50- Starting LoginTest on PC-WH1409003-A with PID 14972 (D:\gitTest\ECS-SeleniumTest\target\test-classes started by WH1409003 in D:\gitTest\ECS-SeleniumTest)
+16:48:54.859 [TestNG-tests-1] INFO  c.w.e.test.testcase.login.LoginTest:675- No active profile set, falling back to default profiles: default
+16:48:55.621 [TestNG-tests-1] INFO  o.s.d.r.c.RepositoryConfigurationDelegate:244- Multiple Spring Data modules found, entering strict repository configuration mode!
+16:48:55.624 [TestNG-tests-1] INFO  o.s.d.r.c.RepositoryConfigurationDelegate:126- Bootstrapping Spring Data repositories in DEFAULT mode.
+16:48:55.658 [TestNG-tests-1] INFO  o.s.d.r.c.RepositoryConfigurationDelegate:182- Finished Spring Data repository scanning in 23ms. Found 0 repository interfaces.
+16:49:14.115 [Forwarding newSession on session null to remote] INFO  o.o.s.remote.ProtocolHandshake:77- Detected dialect: OSS
+16:49:16.203 [TestNG-tests-1] INFO  o.s.s.c.ThreadPoolTaskExecutor:171- Initializing ExecutorService 'applicationTaskExecutor'
+16:49:22.310 [TestNG-tests-1] WARN  o.s.b.a.f.FreeMarkerAutoConfiguration:70- Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+16:49:22.660 [TestNG-tests-1] INFO  org.mongodb.driver.cluster:71- Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+16:49:22.813 [TestNG-tests-1] INFO  c.w.e.test.testcase.login.LoginTest:59- Started LoginTest in 28.767 seconds (JVM running for 30.632)
+16:49:22.893 [TestNG-tests-1] INFO  c.w.e.test.testcase.login.LoginTest:25- 哈哈哈  先登录
+16:49:23.703 [cluster-ClusterId{value='5cdbd2923176c13a7c2f6b55', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster:76- Exception in monitor thread while connecting to server localhost:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:67)
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:126)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:64)
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:62)
+	... 3 common frames omitted
+16:49:39.223 [TestNG-tests-1] ERROR c.w.e.t.l.TestngListenerScreenShot:55- logintest failure to take screen shot
+16:49:39.224 [TestNG-tests-1] INFO  com.wistron.ecs.test.base.DriverBase:136- login_2019_05_15_16_49_39.png
+16:49:39.764 [TestNG-tests-1] INFO  c.w.e.t.t.c.CustomerMgrTest:25- 哈哈哈  搜索客户了
+16:50:15.992 [TestNG-tests-1] ERROR c.w.e.t.l.TestngListenerScreenShot:55- searchCustomertest failure to take screen shot
+16:50:15.993 [TestNG-tests-1] INFO  com.wistron.ecs.test.base.DriverBase:136- searchCustomer_2019_05_15_16_50_15.png
+16:50:16.995 [Thread-2] INFO  o.s.s.c.ThreadPoolTaskExecutor:208- Shutting down ExecutorService 'applicationTaskExecutor'
+16:51:10.251 [TestNG-tests-1] INFO  c.w.e.test.testcase.login.LoginTest:50- Starting LoginTest on PC-WH1409003-A with PID 15164 (D:\gitTest\ECS-SeleniumTest\target\test-classes started by WH1409003 in D:\gitTest\ECS-SeleniumTest)
+16:51:10.253 [TestNG-tests-1] INFO  c.w.e.test.testcase.login.LoginTest:675- No active profile set, falling back to default profiles: default
+16:51:11.134 [TestNG-tests-1] INFO  o.s.d.r.c.RepositoryConfigurationDelegate:244- Multiple Spring Data modules found, entering strict repository configuration mode!
+16:51:11.137 [TestNG-tests-1] INFO  o.s.d.r.c.RepositoryConfigurationDelegate:126- Bootstrapping Spring Data repositories in DEFAULT mode.
+16:51:11.172 [TestNG-tests-1] INFO  o.s.d.r.c.RepositoryConfigurationDelegate:182- Finished Spring Data repository scanning in 22ms. Found 0 repository interfaces.
+16:51:15.951 [Forwarding newSession on session null to remote] INFO  o.o.s.remote.ProtocolHandshake:77- Detected dialect: OSS
+16:51:16.768 [TestNG-tests-1] INFO  o.s.s.c.ThreadPoolTaskExecutor:171- Initializing ExecutorService 'applicationTaskExecutor'
+16:51:17.469 [TestNG-tests-1] WARN  o.s.b.a.f.FreeMarkerAutoConfiguration:70- Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+16:51:17.706 [TestNG-tests-1] INFO  org.mongodb.driver.cluster:71- Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+16:51:17.823 [TestNG-tests-1] INFO  c.w.e.test.testcase.login.LoginTest:59- Started LoginTest in 8.457 seconds (JVM running for 9.559)
+16:51:17.851 [TestNG-tests-1] INFO  c.w.e.test.testcase.login.LoginTest:25- 哈哈哈  先登录
+16:51:18.762 [cluster-ClusterId{value='5cdbd3053176c13b3c236f17', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster:76- Exception in monitor thread while connecting to server localhost:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:67)
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:126)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:64)
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:62)
+	... 3 common frames omitted
+16:51:36.729 [TestNG-tests-1] INFO  c.w.e.t.t.c.CustomerMgrTest:25- 哈哈哈  搜索客户了
+16:51:42.899 [TestNG-tests-1] INFO  c.w.e.t.t.c.CustomerMgrTest:33- 新增客户
+16:51:52.156 [TestNG-tests-1] ERROR c.w.e.t.l.TestngListenerScreenShot:55- searchCustomertest failure to take screen shot
+16:51:52.157 [TestNG-tests-1] INFO  com.wistron.ecs.test.base.DriverBase:136- searchCustomer_2019_05_15_16_51_52.png
+16:51:52.833 [Thread-2] INFO  o.s.s.c.ThreadPoolTaskExecutor:208- Shutting down ExecutorService 'applicationTaskExecutor'
+17:18:37.259 [TestNG-tests-1] INFO  c.w.e.test.testcase.login.LoginTest:50- Starting LoginTest on PC-WH1409003-A with PID 4940 (D:\gitTest\ECS-SeleniumTest\target\test-classes started by WH1409003 in D:\gitTest\ECS-SeleniumTest)
+17:18:37.260 [TestNG-tests-1] INFO  c.w.e.test.testcase.login.LoginTest:675- No active profile set, falling back to default profiles: default
+17:18:37.874 [TestNG-tests-1] INFO  o.s.d.r.c.RepositoryConfigurationDelegate:244- Multiple Spring Data modules found, entering strict repository configuration mode!
+17:18:37.877 [TestNG-tests-1] INFO  o.s.d.r.c.RepositoryConfigurationDelegate:126- Bootstrapping Spring Data repositories in DEFAULT mode.
+17:18:37.912 [TestNG-tests-1] INFO  o.s.d.r.c.RepositoryConfigurationDelegate:182- Finished Spring Data repository scanning in 22ms. Found 0 repository interfaces.
+17:18:45.011 [Forwarding newSession on session null to remote] INFO  o.o.s.remote.ProtocolHandshake:77- Detected dialect: OSS
+17:18:45.822 [TestNG-tests-1] INFO  o.s.s.c.ThreadPoolTaskExecutor:171- Initializing ExecutorService 'applicationTaskExecutor'
+17:18:46.949 [TestNG-tests-1] WARN  o.s.b.a.f.FreeMarkerAutoConfiguration:70- Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+17:18:47.182 [TestNG-tests-1] INFO  org.mongodb.driver.cluster:71- Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+17:18:47.304 [TestNG-tests-1] INFO  c.w.e.test.testcase.login.LoginTest:59- Started LoginTest in 11.187 seconds (JVM running for 12.802)
+17:18:47.340 [TestNG-tests-1] INFO  c.w.e.test.testcase.login.LoginTest:25- 哈哈哈  先登录
+17:18:48.218 [cluster-ClusterId{value='5cdbd9773176c1134c375f03', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster:76- Exception in monitor thread while connecting to server localhost:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:67)
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:126)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:64)
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:62)
+	... 3 common frames omitted
+17:19:14.943 [TestNG-tests-1] INFO  c.w.e.t.t.c.CustomerMgrTest:25- 哈哈哈  搜索客户了
+17:19:21.247 [TestNG-tests-1] INFO  c.w.e.t.t.c.CustomerMgrTest:33- 新增客户
+17:19:40.475 [TestNG-tests-1] ERROR c.w.e.t.l.TestngListenerScreenShot:55- searchCustomertest failure to take screen shot
+17:19:40.476 [TestNG-tests-1] INFO  com.wistron.ecs.test.base.DriverBase:136- searchCustomer_2019_05_15_17_19_40.png
+17:19:41.752 [Thread-2] INFO  o.s.s.c.ThreadPoolTaskExecutor:208- Shutting down ExecutorService 'applicationTaskExecutor'
+17:29:42.819 [TestNG-tests-1] INFO  c.w.e.test.testcase.login.LoginTest:50- Starting LoginTest on PC-WH1409003-A with PID 12432 (D:\gitTest\ECS-SeleniumTest\target\test-classes started by WH1409003 in D:\gitTest\ECS-SeleniumTest)
+17:29:42.822 [TestNG-tests-1] INFO  c.w.e.test.testcase.login.LoginTest:675- No active profile set, falling back to default profiles: default
+17:29:43.498 [TestNG-tests-1] INFO  o.s.d.r.c.RepositoryConfigurationDelegate:244- Multiple Spring Data modules found, entering strict repository configuration mode!
+17:29:43.500 [TestNG-tests-1] INFO  o.s.d.r.c.RepositoryConfigurationDelegate:126- Bootstrapping Spring Data repositories in DEFAULT mode.
+17:29:43.536 [TestNG-tests-1] INFO  o.s.d.r.c.RepositoryConfigurationDelegate:182- Finished Spring Data repository scanning in 23ms. Found 0 repository interfaces.
+17:29:48.811 [Forwarding newSession on session null to remote] INFO  o.o.s.remote.ProtocolHandshake:77- Detected dialect: OSS
+17:29:49.542 [TestNG-tests-1] INFO  o.s.s.c.ThreadPoolTaskExecutor:171- Initializing ExecutorService 'applicationTaskExecutor'
+17:29:50.270 [TestNG-tests-1] WARN  o.s.b.a.f.FreeMarkerAutoConfiguration:70- Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+17:29:50.486 [TestNG-tests-1] INFO  org.mongodb.driver.cluster:71- Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+17:29:50.603 [TestNG-tests-1] INFO  c.w.e.test.testcase.login.LoginTest:59- Started LoginTest in 8.483 seconds (JVM running for 10.024)
+17:29:50.631 [TestNG-tests-1] INFO  c.w.e.test.testcase.login.LoginTest:25- 哈哈哈  先登录
+17:29:51.532 [cluster-ClusterId{value='5cdbdc0e3176c13090c5fea6', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster:76- Exception in monitor thread while connecting to server localhost:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:67)
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:126)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:64)
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:62)
+	... 3 common frames omitted
+17:31:03.420 [TestNG-tests-1] INFO  c.w.e.t.t.c.CustomerMgrTest:25- 哈哈哈  搜索客户了
+17:31:09.622 [TestNG-tests-1] INFO  c.w.e.t.t.c.CustomerMgrTest:33- 新增客户
+17:31:13.762 [TestNG-tests-1] ERROR c.w.e.t.l.TestngListenerScreenShot:55- searchCustomertest failure to take screen shot
+17:31:13.762 [TestNG-tests-1] INFO  com.wistron.ecs.test.base.DriverBase:136- searchCustomer_2019_05_15_17_31_13.png
+17:31:15.364 [Thread-2] INFO  o.s.s.c.ThreadPoolTaskExecutor:208- Shutting down ExecutorService 'applicationTaskExecutor'
+17:37:23.227 [TestNG-tests-1] INFO  c.w.e.test.testcase.login.LoginTest:50- Starting LoginTest on PC-WH1409003-A with PID 12712 (D:\gitTest\ECS-SeleniumTest\target\test-classes started by WH1409003 in D:\gitTest\ECS-SeleniumTest)
+17:37:23.228 [TestNG-tests-1] INFO  c.w.e.test.testcase.login.LoginTest:675- No active profile set, falling back to default profiles: default
+17:37:24.385 [TestNG-tests-1] INFO  o.s.d.r.c.RepositoryConfigurationDelegate:244- Multiple Spring Data modules found, entering strict repository configuration mode!
+17:37:24.389 [TestNG-tests-1] INFO  o.s.d.r.c.RepositoryConfigurationDelegate:126- Bootstrapping Spring Data repositories in DEFAULT mode.
+17:37:24.429 [TestNG-tests-1] INFO  o.s.d.r.c.RepositoryConfigurationDelegate:182- Finished Spring Data repository scanning in 25ms. Found 0 repository interfaces.
+17:37:33.688 [Forwarding newSession on session null to remote] INFO  o.o.s.remote.ProtocolHandshake:77- Detected dialect: OSS
+17:37:35.148 [TestNG-tests-1] INFO  o.s.s.c.ThreadPoolTaskExecutor:171- Initializing ExecutorService 'applicationTaskExecutor'
+17:37:35.956 [TestNG-tests-1] WARN  o.s.b.a.f.FreeMarkerAutoConfiguration:70- Cannot find template location(s): [classpath:/templates/] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+17:37:36.273 [TestNG-tests-1] INFO  org.mongodb.driver.cluster:71- Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+17:37:36.462 [TestNG-tests-1] INFO  c.w.e.test.testcase.login.LoginTest:59- Started LoginTest in 14.233 seconds (JVM running for 15.696)
+17:37:36.491 [TestNG-tests-1] INFO  c.w.e.test.testcase.login.LoginTest:25- 哈哈哈  先登录
+17:37:37.484 [cluster-ClusterId{value='5cdbdde03176c131a8672853', description='null'}-localhost:27017] INFO  org.mongodb.driver.cluster:76- Exception in monitor thread while connecting to server localhost:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:67)
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:126)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:64)
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:62)
+	... 3 common frames omitted
+17:38:00.643 [TestNG-tests-1] INFO  c.w.e.t.t.c.CustomerMgrTest:25- 哈哈哈  搜索客户了
+17:38:06.825 [TestNG-tests-1] INFO  c.w.e.t.t.c.CustomerMgrTest:33- 新增客户
+17:38:20.567 [TestNG-tests-1] INFO  c.w.e.t.handle.CustomerAddPageHandle:23- WiAdvance Partner Center Integration Sandbox
+17:38:32.483 [TestNG-tests-1] INFO  c.w.e.t.p.customer.CustomerAddPage:102- className>buttonNext
+17:38:38.187 [TestNG-tests-1] INFO  c.w.e.t.p.customer.CustomerAddPage:102- className>buttonNext
+17:38:39.356 [TestNG-tests-1] INFO  c.w.e.t.p.customer.CustomerAddPage:102- className>buttonNext
+17:38:39.690 [Thread-2] INFO  o.s.s.c.ThreadPoolTaskExecutor:208- Shutting down ExecutorService 'applicationTaskExecutor'
